@@ -49,12 +49,22 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 ```shell
 git remote add origin git@github.com:michaelliao/learngit.git
-git push -u origin master
-git push origin master
 ```
 
 #### 从远程库克隆
 
 ```shell
 git clone git@github.com:michaelliao/gitskills.git
+```
+
+#### 提交到远程库
+
+```git shell
+git push -u origin master
+git push origin master
+```
+#### 从远程库更新
+
+```
+git pull origin master
 ```
