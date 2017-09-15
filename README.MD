@@ -59,12 +59,13 @@ git clone git@github.com:michaelliao/gitskills.git
 
 #### 提交到远程库
 
-```git shell
+```shell
 git push -u origin master
 git push origin master
 ```
+
 #### 从远程库更新
 
-```
+```shell
 git pull origin master
 ```
