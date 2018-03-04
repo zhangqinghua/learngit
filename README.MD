@@ -48,13 +48,13 @@ ssh-keygen -t rsa -C "youremail@example.com"
 #### 添加远程库
 
 ```shell
-git remote add origin git@github.com:michaelliao/learngit.git
+git remote add origin git@github.com:zhangqinghua/learngit.git
 ```
 
 #### 从远程库克隆
 
 ```shell
-git clone git@github.com:michaelliao/gitskills.git
+git clone git@github.com:zhangqinghua/learngit.git
 ```
 
 #### 提交到远程库
